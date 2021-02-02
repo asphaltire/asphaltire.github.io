@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+    background-image: url("19449741.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   }
+.nav
+{
+    
+    border-top: 0;
+    position:fixed;
+    top:0;
+    background-color: white;
+    left:30%;
+    overflow:hidden;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    height:40px;
+    width:40%;
+    font-size: 0;
+    z-index:2;
+    
+}
+.nav span{
+    box-sizing: border-box;
+    cursor:pointer;
+    display:inline-block;
+    width:25%;
+    height:100%;
+    font-size: 15px;
+    padding-top:1.5%;
+}
+.nav a{
+    cursor:pointer;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span:hover{
+    background-color: black;
+    color:white;
+}
+.intro
+{
+    
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 21px 1px rgba(0,0,0,0.20);
+    position:relative;
+    margin-top:5%;
+    left:20%;
+    height:500px;
+    width:60%;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dp{
+    position:absolute;
+    top:5%;
+    left:3%;
+    height:35%;
+    width:19%;
+    border-radius:100%;
+    box-shadow: inset 0px 3px 21px 1px rgba(0,0,0,0.61);
+    overflow:hidden;
+    background-image: url("dp.jpg");
+    background-size: cover;
+    background-position-y: 80%; 
+}
+.intro h1{
+    position:absolute;
+    left:35%;
+    top:18%;
+}
+ .aboutme{
+    position:relative;
+    top:50%;
+    left:15%;
+    width:60%;
+    line-height: 26px;
+    padding:5%;
+    box-shadow: inset 0px -4px 33px 1px rgba(224,221,224,0.59);
+
+} 
+table{
+    margin-left: 10%;
+}
+table,th,td{
+    border:solid;
+}
+.myskill{
+    position:absolute;
+    top:30%;
+    left:10%;
+    
+    height:65%;
+    width:80%;
+}
+.skill{
+    position:relative;
+    width:30%;
+    height:150px;
+    display:inline-block;
+    background-color: rgb(171, 169, 166);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position-x: 50%;
+}
